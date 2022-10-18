@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "required": ["lng", "lat", "radius"],
+  "properties": {
+    "lng": { "type": "number" },
+    "lat": { "type": "number" },
+    "radius": { "type": "number" }
+  },
+  "additionalProperties": false,
+  "errorMessage": {
+    "required": {
+      "lat": "Latitude is required",
+      "lng": "Longitude is required",
+      "radius": "Radius is required"
+    },
+    "additionalProperties": "Fetch schema is invalid"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "required": ["name", "geometry"],
+  "properties": {
+    "name": { "type": "string", "minLength": 3 },
+    "geometry": { "type": "object" }
+  },
+  "additionalProperties": false,
+  "errorMessage": {
+    "required": {
+      "name": "name is required",
+      "geometry": "geometry is required"
+    },
+    "additionalProperties": "insert schema is invalid"
+  }
+}

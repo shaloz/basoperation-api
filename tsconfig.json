@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "rootDir": ".",
+      "outDir": "build",
+      "esModuleInterop": true,
+      "allowJs": true,
+      "resolveJsonModule": true,
+      "target": "es6",
+      "module": "commonjs",
+      "strict": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true 
+    },
+    "include": ["src/**/*.ts", ".well-known"]
+}
+  

@@ -1,0 +1,14 @@
+{
+  "log": {
+    "console": {
+      "enabled": true,
+      "level": "debug"
+    },
+    "file": {
+      "enabled": true,
+      "filename": "../%DATE%-baseopration.log",
+      "level": "info",
+      "datePattern": "YYYY-MM-DD"
+    }
+  }
+}
